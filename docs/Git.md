@@ -1,4 +1,14 @@
-# Configure Git
+# Git
+
+## Install Git
+
+* Install Git:
+
+```bash
+sudo apt install git-all
+```
+
+## GitHub Authentication
 
 To push and pull code from GitHub you need to have access to the repository from your server or VM. The authentication method you use depends on wether you're installing a server for a client or for yourself / development:
 
