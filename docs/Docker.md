@@ -43,7 +43,7 @@ sudo usermod -aG docker $USER && sudo su - $USER
 sudo curl -L "https://github.com/docker/compose/releases/download/<version>/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
-## Authenticate to GitHub Container registry
+## Authenticate to the GitHub Container registry
 
 To pull private Docker containers you need to have access to the GitHub container registry from the server or VM. Authentication is done through a personal access token with a short expiration date and minimal scope:
 
