@@ -6,7 +6,7 @@ npm run docs:build
 
 cd docs/.vuepress/dist
 
-echo 'developers.vanegmond.cloud' > CNAME
+echo 'docs.vanegmond.cloud' > CNAME
 
 git init
 git add -A
