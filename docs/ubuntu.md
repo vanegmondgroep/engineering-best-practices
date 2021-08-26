@@ -20,8 +20,7 @@ sudo apt-get install \
     nano \
     openssh-server
 ```
-
-::: tip
+::: details
 * Gparted: for resizing disks.
 * Nano: easy to use file editor (from the terminal).
 * OpenSSH Server: enables SSH-access to the server.
