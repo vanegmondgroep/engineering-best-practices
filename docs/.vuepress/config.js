@@ -1,16 +1,13 @@
 module.exports = {
     title: "Engineering Best Practices",
     description: "This guide dictates how we, as a company, engineer applications.",
-    base: '/engineering-best-practices/',
-
-    //head: require('./head'),
 
     themeConfig: {
         logo: '/assets/img/logo.png',
         displayAllHeaders: true,
         activeHeaderLinks: false,
         searchPlaceholder: 'Press / to search',
-        lastUpdated: false, // string | boolean
+        lastUpdated: true,
         sidebarDepth: 1,
 
         repo: 'vanegmondgroep/engineering-best-practices',
@@ -26,8 +23,10 @@ module.exports = {
 
         sidebar: [
             '/',
-            '/Docker',
-            '/Git'
+            '/ubuntu',
+            '/git',
+            '/docker',
+            '/docker-compose'
         ]
     },
 }

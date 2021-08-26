@@ -1,6 +1,6 @@
 # Docker
 
-## Install Docker
+## Installation
 
 * Install required packages:
 
@@ -21,7 +21,7 @@ sudo apt-get install \
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 ```
 
-* Install Docker CE
+* Install Docker CE:
 
 ```bash
 sudo apt-get update && apt-get install docker-ce docker-ce-cli containerd.io
@@ -33,17 +33,21 @@ sudo apt-get update && apt-get install docker-ce docker-ce-cli containerd.io
 sudo usermod -aG docker $USER && sudo su - $USER
 ```
 
-## Install Docker Compose
+## Commands
 
-* Find the most recent version of Docker Compose [here](https://github.com/docker/compose/releases).
-
-* Install Docker Compose (replace `<version>` with the most recent version):
+* List running containers:
 
 ```bash
-sudo curl -L "https://github.com/docker/compose/releases/download/<version>/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+docker ps
 ```
 
-## Authenticate to the GitHub Container registry
+* Show container logs:
+
+```bash
+docker logs <container-id>
+```
+
+## Authenticate to GitHub
 
 To pull private Docker containers you need to have access to the GitHub container registry from the server or VM. Authentication is done through a personal access token with a short expiration date and minimal scope:
 
@@ -54,3 +58,8 @@ To pull private Docker containers you need to have access to the GitHub containe
 ```
 docker login ghcr.io
 ```
+
+## Links
+
+* [Documentation](https://docs.docker.com/engine/)
+* [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)

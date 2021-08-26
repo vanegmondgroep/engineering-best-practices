@@ -1,6 +1,6 @@
 # Git
 
-## Install Git
+## Installation
 
 * Install Git:
 
@@ -44,3 +44,7 @@ git config --global user.name "<firstname> <lastname>"
 git config --global user.email "<project>@vanegmond.nl"
 git config --global user.name "<project>"
 ```
+
+## Links
+
+* [GitHub Tutorial](https://guides.github.com/activities/hello-world/)
