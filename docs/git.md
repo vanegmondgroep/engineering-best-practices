@@ -1,5 +1,7 @@
 # Git
 
+[[toc]]
+
 ## Installation
 
 * Install Git:

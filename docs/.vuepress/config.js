@@ -8,7 +8,7 @@ module.exports = {
         activeHeaderLinks: false,
         searchPlaceholder: 'Press / to search',
         lastUpdated: true,
-        sidebarDepth: 1,
+        sidebarDepth: 0,
 
         repo: 'vanegmondgroep/engineering-best-practices',
 
@@ -26,7 +26,8 @@ module.exports = {
             '/ubuntu',
             '/git',
             '/docker',
-            '/docker-compose'
+            '/docker-compose', 
+            '/hyper-v'
         ]
     },
 }

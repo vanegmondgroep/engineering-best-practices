@@ -1,5 +1,7 @@
 # Docker Compose
 
+[[toc]]
+
 ## Installation
 
 * Find the most recent version of Docker Compose [here](https://github.com/docker/compose/releases).
@@ -12,25 +14,25 @@ sudo curl -L "https://github.com/docker/compose/releases/download/<version>/dock
 
 ## Commands
 
-* Start docker containers:
+* Start containers:
 
 ```bash
 docker-compose up -d
 ```
 
-* Stop docker containers:
+* Stop containers:
 
 ```bash
 docker-compose down
 ```
 
-* Show docker container logs:
+* Show container logs:
 
 ```bash
 docker-compose logs <container-name>
 ```
 
-* Login to a container to a container:
+* Login to a container:
 
 ```bash
 docker-compose exec <container-name> bash

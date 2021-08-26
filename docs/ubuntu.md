@@ -1,5 +1,7 @@
 # Ubuntu
 
+[[toc]]
+
 ## Mount network share
 
 This guide covers the installation and configuration of a network share on Ubuntu.
