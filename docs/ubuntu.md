@@ -2,7 +2,36 @@
 
 [[toc]]
 
-## Mount network share
+## Initial server setup
+
+Complete the steps below to prepare a server or VM for development or production.
+
+* Upgrade packages:
+
+```bash
+sudo apt-get update && apt-get upgrade
+```
+
+* Install common packages:
+
+```bash
+sudo apt-get install \
+    gparted \
+    nano \
+    openssh-server
+```
+
+::: tip
+* Gparted: for resizing disks.
+* Nano: easy to use file editor (from the terminal).
+* OpenSSH Server: enables SSH-access to the server.
+:::
+
+* [Install & configure Git](./git.md)
+* [Install & configure Docker](./git.md)
+* [Install & configure Docker Compose](./git.md)
+
+## Mount a network share
 
 This guide covers the installation and configuration of a network share on Ubuntu.
 
