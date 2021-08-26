@@ -1,8 +1,7 @@
 module.exports = {
     title: "Engineering Best Practices",
     description: "This guide dictates how we, as a company, engineer applications.",
-    base: '/',
-    dest: 'dist',
+    base: '/engineering-best-practices/',
 
     //head: require('./head'),
 
