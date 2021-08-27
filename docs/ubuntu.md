@@ -28,10 +28,6 @@ sudo apt-get install \
 * OpenSSH Server: enables SSH-access to the server.
 :::
 
-* [Install & configure Git](./git.md)
-* [Install & configure Docker](./docker.md)
-* [Install & configure Docker Compose](./docker-compose.md)
-
 ## Mount a network share
 
 This guide covers the installation and configuration of a network share on Ubuntu.
