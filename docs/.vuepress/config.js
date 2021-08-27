@@ -27,7 +27,8 @@ module.exports = {
             '/git',
             '/docker',
             '/docker-compose', 
-            '/hyper-v'
+            '/hyper-v',
+            '/sip-stack'
         ]
     },
 }

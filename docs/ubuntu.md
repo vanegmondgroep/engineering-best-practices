@@ -1,10 +1,12 @@
 # Ubuntu
 
+Ubuntu is an operating system that is developed by a worldwide community of programmers as well as by employees of Ubuntu's commercial sponsor, Canonical. Ubuntu is based on the concept of free or open-source software, meaning that you do not pay any licensing fees for Ubuntu, and you can download, use, and share the operating system free of charge. Being a Linux-based operating system, Ubuntu has a well-deserved reputation for stability and security. Historically, Linux has proven itself to be a workhorse server operating system, and this is where, up until now, it has been most widely used and best known. 
+
 [[toc]]
 
 ## Initial server setup
 
-Complete the steps below to prepare a server or VM for development or production.
+Complete the steps below to prepare a Ubuntu server or VM for development or production.
 
 * Upgrade packages:
 
@@ -27,8 +29,8 @@ sudo apt-get install \
 :::
 
 * [Install & configure Git](./git.md)
-* [Install & configure Docker](./git.md)
-* [Install & configure Docker Compose](./git.md)
+* [Install & configure Docker](./docker.md)
+* [Install & configure Docker Compose](./docker-compose.md)
 
 ## Mount a network share
 
